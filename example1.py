@@ -43,7 +43,10 @@ def fun4():
     # a return value
     print(word)
 
-print("===========")
-fun3()
-print(word)
+
+
+if __name__ == "__main__":
+    print("===========")
+    fun3()
+    print(word)
 
